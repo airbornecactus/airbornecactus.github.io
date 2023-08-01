@@ -1,0 +1,188 @@
+* {
+  font-family: "Roboto";
+}
+body {
+  margin: 0;
+}
+
+a:hover {
+  color: #e8d49b;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  padding: 10px;
+}
+.heroandmain {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+}
+.edge-padding {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding: 12px;
+  background-position: left;
+  width: fit-content;
+}
+.navigation {
+  display: flex;
+  font-size: 24px;
+  color: #e5e7eb;
+}
+
+.websiteisawesome {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#subtitle {
+  padding-top: 0px;
+}
+.mainsection {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 200px;
+  margin-top: 100px;
+}
+
+.maintitle {
+  font-size: 48px;
+  font-weight: bolder;
+  flex: 1;
+}
+
+.maintitle > p {
+  color: #e5e7eb;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.mainimage {
+  flex: 1;
+  width: 50%;
+}
+
+.topenlist {
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 150px;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#feature-title {
+  font-size: 36px;
+  color: #1f2939;
+  font-weight: bolder;
+}
+
+.feature-image-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-image-subtitle > figcaption {
+  color: #1f2937;
+  font-size: 18px;
+}
+.feature-images {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-image-border {
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+}
+
+.quote {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #e5e7eb;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quote > p {
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+#palpatine {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+#enlist {
+  padding: 0px 200px;
+}
+
+.enlistcontainer {
+  padding: 60px 200px;
+  margin: 200px 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 12px;
+  color: #f9faf8;
+}
+
+#enlistquote > p {
+  color: rgba(233, 230, 222, 0.816);
+}
+
+.bottomenlist {
+  background-color: inherit;
+  border: 3px solid #f9faf8;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 250px;
+  height: 100px;
+}
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+  color: #f9faf8;
+}
